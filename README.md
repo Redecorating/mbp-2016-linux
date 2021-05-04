@@ -13,6 +13,10 @@ counterparts, except for the use of newer Intels Kaby Lake processors instead
 of Intel Skylake processors, faster memory and updated AMD Radeon GPUs in the
 15-inch models.
 
+The 2018-2020 Intel MacBooks With the T2 security chip currently require kernel
+patches the apple-ib-tb and apple-bce drivers. More information for these models
+is avalible on the [t2linux wiki](https://wiki.t2linux.org/), as well as here.
+
 The checks if hardware works below were done with multiple Linux distributions.
 To state the obvious: The newer the kernel the better. The information below
 assumes that you run Linux 5.4 or newer.
@@ -36,7 +40,7 @@ There is also a chat available via gitter for discussions:
 | ------- | ------ |
 | [Audio input & output](#audio-input--output) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 not working](https://img.shields.io/badge/MacBookPro13%2C2-not_working-red.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 partially working](https://img.shields.io/badge/MacBookPro14%2C1-partially_working-yellow.svg) ![MacBookPro14,2 not working](https://img.shields.io/badge/MacBookPro14%2C2-not_working-red.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 partially working](https://img.shields.io/badge/MacBookPro15%2C1-partially_working-yellow.svg) ![MacBookPro15,2 partially working](https://img.shields.io/badge/MacBookPro15%2C2-partially_working-yellow.svg) ![MacBookPro15,4 partially working](https://img.shields.io/badge/MacBookPro15%2C4-partially_working-yellow.svg) ![MacBookPro16,1 partially working](https://img.shields.io/badge/MacBookPro16%2C1-partially_working-yellow.svg) ![MacBookPro16,2 partially working](https://img.shields.io/badge/MacBookPro16%2C2-partially_working-yellow.svg) ![MacBookPro16,3 partially working](https://img.shields.io/badge/MacBookPro16%2C3-partially_working-yellow.svg) |
 | [Battery](#battery) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
-| [Bluetooth](#bluetooth) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) |
+| [Bluetooth](#bluetooth) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 working](https://img.shields.io/badge/MacBookPro15%2C4-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svgv) |
 | [FaceTime HD camera](#facetime-hd-camera) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
 | [Graphics card](#intel) (Intel) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 partially working](https://img.shields.io/badge/MacBookPro15%2C1-partially_working-yellow.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 working](https://img.shields.io/badge/MacBookPro15%2C4-working-green.svg) ![MacBookPro16,1 partially working](https://img.shields.io/badge/MacBookPro16%2C1-partially_working-yellow.svg) ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svg) |
 | [Graphics card](#amd) (AMD) | ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) |
@@ -44,7 +48,7 @@ There is also a chat available via gitter for discussions:
 | [NVMe](#nvme) (internal SSD) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
 | [Screen](#screen) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
 | [Suspend & Hibernation](#suspend--hibernation) | ![all models partially working](https://img.shields.io/badge/all_models-partially_working-yellow.svg) |
-| [System Management Controller](#system-management-controller) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) |
+| [System Management Controller](#system-management-controller) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 working](https://img.shields.io/badge/MacBookPro15%2C4-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svgv) |
 | [Thunderbolt](#thunderbolt) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
 | [Touch Bar](#touch-bar) | ![all models partially working](https://img.shields.io/badge/all_models-partially_working-yellow.svg) |
 | [Touch ID](#touch-id) | ![all models not working](https://img.shields.io/badge/all_models-not_working-red.svg) |
@@ -103,7 +107,7 @@ than 4 hours.
 
 ## Bluetooth
 
-![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg)
+![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 working](https://img.shields.io/badge/MacBookPro15%2C4-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svgv)
 
 Works out of the box, except for the models without Touch Bar, which still
 suffer from a bug and need an additional patch as noted in
@@ -164,9 +168,6 @@ displays daisy-chained together with Full HD each.
 
 Works out of the box for the MacBookPro13,3 and MacBookPro14,3.
 
-The MacBookPro16,1 currently requires a 5.6-RC kernel and the latest `amdgpu`
-drivers.
-
 ## Keyboard & Touchpad
 
 ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 working](https://img.shields.io/badge/MacBookPro15%2C4-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svg)
@@ -222,10 +223,11 @@ https://bugzilla.kernel.org/show_bug.cgi?id=105051#c32
 There is one oddity in the EDID data of the 13" models, as it contains a
 `2800x1800` mode in addition to the correct `2560x1600` mode. In the end that
 doesn't matter, as Xorg probes and sets the correct resolution of `2560x1600`.
+This is fixed by [this patch](https://github.com/aunali1/linux-mbp-arch/blob/master/7001-drm-i915-fbdev-Discard-BIOS-framebuffers-exceeding-h.patch).
 
 ## Suspend & Hibernation
 
-![MacBookPro13,1 partially working](https://img.shields.io/badge/MacBookPro13%2C1-partially_working-yellow.svg) ![MacBookPro13,2 partially working](https://img.shields.io/badge/MacBookPro13%2C2-partially_working-yellow.svg) ![MacBookPro13,3 partially working](https://img.shields.io/badge/MacBookPro13%2C3-partially_working-yellow.svg) ![MacBookPro14,1 partially working](https://img.shields.io/badge/MacBookPro14%2C1-partially_working-yellow.svg) ![MacBookPro14,2 partially working](https://img.shields.io/badge/MacBookPro14%2C2-partially_working-yellow.svg) ![MacBookPro14,3 partially working](https://img.shields.io/badge/MacBookPro14%2C3-partially_working-yellow.svg) ![MacBookPro16,1 partially working](https://img.shields.io/badge/MacBookPro16%2C1-partially_working-yellow.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg)
+![MacBookPro13,1 partially working](https://img.shields.io/badge/MacBookPro13%2C1-partially_working-yellow.svg) ![MacBookPro13,2 partially working](https://img.shields.io/badge/MacBookPro13%2C2-partially_working-yellow.svg) ![MacBookPro13,3 partially working](https://img.shields.io/badge/MacBookPro13%2C3-partially_working-yellow.svg) ![MacBookPro14,1 partially working](https://img.shields.io/badge/MacBookPro14%2C1-partially_working-yellow.svg) ![MacBookPro14,2 partially working](https://img.shields.io/badge/MacBookPro14%2C2-partially_working-yellow.svg) ![MacBookPro14,3 partially working](https://img.shields.io/badge/MacBookPro14%2C3-partially_working-yellow.svg) ![MacBookPro15,1 partially working](https://img.shields.io/badge/MacBookPro15%2C1-partially_working-yellow.svg) ![MacBookPro15,2 partially working](https://img.shields.io/badge/MacBookPro15%2C2-partially_working-yellow.svg) ![MacBookPro15,4 partially working](https://img.shields.io/badge/MacBookPro15%2C4-partially_working-yellow.svg) ![MacBookPro16,1 partially working](https://img.shields.io/badge/MacBookPro16%2C1-partially_working-yellow.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) ![MacBookPro16,3 partially working](https://img.shields.io/badge/MacBookPro16%2C3-partially_working-yellow.svg)
 
 Putting the MacBook Pro into suspend mode works on all models, but successful
 resume requires additional prerequisites as explained below.
@@ -244,11 +246,16 @@ up to a minute, probably due to
 additional bugs.
 
 For the 15" models with additional AMD GPU resume only works when using the
-internal Intel GPU.
+internal Intel GPU. The opposite is true for T2 Macs with additional AMD GPU,
+as the GMUX chip is set to connect the AMD GPU to the display upon resume, which
+prevents the Intel GPU driver from resuming properly.
+
+T2 Macs also need the `apple-ib-tb` module unloaded before suspend, as described
+[here](https://wiki.t2linux.org/guides/dkms/#fixing-suspend).
 
 ## System Management Controller
 
-![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg)
+![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 working](https://img.shields.io/badge/MacBookPro15%2C4-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svgv)
 
 The System Management Controller (SMC) is responsible for interactions with
 sensors and fans.
@@ -261,6 +268,11 @@ manually setting the fan speed through `applesmc` works as well. That's useful
 if you want to use a different fan speed profile than the hardware uses by
 default. In that case, you might want to use a tool like
 [`mbpfan`](https://github.com/dgraziotin/mbpfan).
+
+Models with the T2 chip need patches to applesmc, as the t2 chip is the SMC
+These patches are in [linux-mbp-arch](https://github.com/aunali1/linux-mbp-arch).
+If you want fan control on T2 Macs, use this [mbpfan fork](https://github.com/networkException/mbpfan)
+as the location of the applesmc sysfs interface is changed by those patches.
 
 The ambient light sensor is working out of the box for the models without Touch
 Bar, using the `applesmc` module as well. In models with Touch Bar, the ambient
@@ -328,7 +340,7 @@ ensure that it complies with regulatory limits, which is very unlikely to
 happen as it wouldn't provide enough return on investment for them (see
 https://bugzilla.kernel.org/show_bug.cgi?id=193121 for details).
 
-T2 MacBooks need firmware taken form macOS. Ones that came with Mojave (15,* 
+T2 MacBooks need firmware taken from macOS. Ones that came with Mojave (15,* 
 excluding 15,4) need the WiFi patches in aunali1's
 [linux-mbp-arch](https://github.com/aunali1/linux-mbp-arch) and firmware as 
 described in the t2linux wiki's [wifi guide](https://wiki.t2linux.org/guides/wifi/).
@@ -481,6 +493,16 @@ Those additional interfaces are likely responsible for Touch Id and the
 advanced graphical functionality of the Touch Bar. There might also be some
 kind of interface for *iBridge*-firmware updates.
 
+### NVRAM
+
+On T2 Macbooks, writing to nvram from linux makes the T2 chip panic. Reading
+and deleteing variables is fine. You can disable nvram completely with the
+`efi=noruntime` kernel paramater, or make it readonly by adding the following
+line to `/etc/fstab`:
+```
+efivarfs /sys/firmware/efi/efivars efivarfs ro,remount 0 0
+```
+
 ### Disable auto-boot
 
 Apple introduced an "auto-boot" feature with the MacBook Pro 2016 causing the
@@ -522,3 +544,6 @@ rm /sys/firmware/efi/efivars/AutoBoot-7c436110-ab2a-4bbb-a880-fe41995c9f82
 * Excellent collection providing a status of hardware support for the MacBook
   Pro 2016 as well:
   https://gist.github.com/roadrunner2/1289542a748d9a104e7baec6a92f9cd7
+* t2linux Wiki has more documentation and links to packaged patched kernels
+  and install isos for T2 MacBooks for several distrubutions:
+  https://wiki.t2linux.org/
