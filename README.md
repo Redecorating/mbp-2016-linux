@@ -49,7 +49,7 @@ There is also a chat available via gitter for discussions:
 | [Touch Bar](#touch-bar) | ![MacBookPro13,2 partially working](https://img.shields.io/badge/MacBookPro13%2C2-partially_working-yellow.svg) ![MacBookPro13,3 partially working](https://img.shields.io/badge/MacBookPro13%2C3-partially_working-yellow.svg) ![MacBookPro14,2 partially working](https://img.shields.io/badge/MacBookPro14%2C2-partially_working-yellow.svg) ![MacBookPro14,3 partially working](https://img.shields.io/badge/MacBookPro14%2C3-partially_working-yellow.svg) ![MacBookPro16,1 partially working](https://img.shields.io/badge/MacBookPro16%2C1-partially_working-yellow.svg) ![MacBookPro16,2 partially working](https://img.shields.io/badge/MacBookPro16%2C2-partially_working-yellow.svg) |
 | [Touch ID](#touch-id) | ![MacBookPro13,2 not working](https://img.shields.io/badge/MacBookPro13%2C2-not_working-red.svg) ![MacBookPro13,3 not working](https://img.shields.io/badge/MacBookPro13%2C3-not_working-red.svg) ![MacBookPro14,2 not working](https://img.shields.io/badge/MacBookPro14%2C2-not_working-red.svg) ![MacBookPro14,3 not working](https://img.shields.io/badge/MacBookPro14%2C3-not_working-red.svg) ![MacBookPro16,1 not working](https://img.shields.io/badge/MacBookPro16%2C1-not_working-red.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) |
 | [USB](#usb) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
-| [Wi-Fi](#wi-fi) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 not working](https://img.shields.io/badge/MacBookPro13%2C2-not_working-red.svg) ![MacBookPro13,3 not working](https://img.shields.io/badge/MacBookPro13%2C3-not_working-red.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 not working](https://img.shields.io/badge/MacBookPro14%2C2-not_working-red.svg) ![MacBookPro14,3 not working](https://img.shields.io/badge/MacBookPro14%2C3-not_working-red.svg) ![MacBookPro16,1 not working](https://img.shields.io/badge/MacBookPro16%2C1-not_working-red.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) |
+| [Wi-Fi](#wi-fi) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 not working](https://img.shields.io/badge/MacBookPro13%2C2-not_working-red.svg) ![MacBookPro13,3 not working](https://img.shields.io/badge/MacBookPro13%2C3-not_working-red.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 not working](https://img.shields.io/badge/MacBookPro14%2C2-not_working-red.svg) ![MacBookPro14,3 not working](https://img.shields.io/badge/MacBookPro14%2C3-not_working-red.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 not working](https://img.shields.io/badge/MacBookPro15%2C4-not_working-red.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svg) |
 
 ## Audio input & output
 
@@ -303,7 +303,7 @@ Works out of the box.
 
 ## Wi-Fi
 
-![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 not working](https://img.shields.io/badge/MacBookPro13%2C2-not_working-red.svg) ![MacBookPro13,3 not working](https://img.shields.io/badge/MacBookPro13%2C3-not_working-red.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 not working](https://img.shields.io/badge/MacBookPro14%2C2-not_working-red.svg) ![MacBookPro14,3 not working](https://img.shields.io/badge/MacBookPro14%2C3-not_working-red.svg) ![MacBookPro16,1 not working](https://img.shields.io/badge/MacBookPro16%2C1-not_working-red.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg)
+![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 not working](https://img.shields.io/badge/MacBookPro13%2C2-not_working-red.svg) ![MacBookPro13,3 not working](https://img.shields.io/badge/MacBookPro13%2C3-not_working-red.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 not working](https://img.shields.io/badge/MacBookPro14%2C2-not_working-red.svg) ![MacBookPro14,3 not working](https://img.shields.io/badge/MacBookPro14%2C3-not_working-red.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 not working](https://img.shields.io/badge/MacBookPro15%2C4-not_working-red.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svg)
 
 The MacBook Pro models without Touch Bar come with a `Broadcom Limited BCM4350
 802.11ac Wireless Network Adapter` which works fine out of the box using the
@@ -322,11 +322,14 @@ ensure that it complies with regulatory limits, which is very unlikely to
 happen as it wouldn't provide enough return on investment for them (see
 https://bugzilla.kernel.org/show_bug.cgi?id=193121 for details).
 
-The MacBookPro16,1 comes with a `Broadcom Inc. and subsidiaries BCM4364
-802.11ac Wireless Network Adapter (rev 04)` which is detected with wifi
-patches from [here](https://github.com/aunali1/linux-mbp-arch) but doesn't
-work as no appropriate firmware is available. Catalina firmware doesn't
-seem to work here and no pre-Catalina firmware is available for this card.
+T2 MacBooks need firmware taken form macOS. Ones that came with Mojave (15,\* 
+excluding 15,4) need the WiFi patches in aunali1's [linux-mbp-arch](https://github.com/aunali1/linux-mbp-arch) and
+firmware as described in the t2linux wiki's [wifi guide](https://wiki.t2linux.org/guides/wifi/).
+
+The 16,\* models came with Catalina, and thus there is no Mojave firmware.
+They need to use Corellium's WiFi patches for M1 Macs, and BigSur firmware.
+The needed patches are [here](https://github.com/jamlam/mbp-16.1-linux-wifi) and the aforementioned WiFi guide
+mentions how to get firmware. This is also needed for the MacBookAir9,1.
 
 ## Misc
 
