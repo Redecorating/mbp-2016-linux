@@ -38,8 +38,8 @@ There is also a chat available via gitter for discussions:
 | [Battery](#battery) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
 | [Bluetooth](#bluetooth) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) ![MacBookPro16,2 not working](https://img.shields.io/badge/MacBookPro16%2C2-not_working-red.svg) |
 | [FaceTime HD camera](#facetime-hd-camera) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
-| [Graphics card](#intel) (Intel) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro16,1 unknown](https://img.shields.io/badge/MacBookPro16%2C1-unknown-grey.svg) ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg) |
-| [Graphics card](#amd) (AMD) | ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) |
+| [Graphics card](#intel) (Intel) | ![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 partially working](https://img.shields.io/badge/MacBookPro16%2C1-partially_working-yellow.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 working](https://img.shields.io/badge/MacBookPro15%2C4-working-green.svg)  ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg) ![MacBookPro16,1 partially working](https://img.shields.io/badge/MacBookPro16%2C1-partially_working-yellow.svg) ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svg) |
+| [Graphics card](#amd) (AMD) | ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg) |
 | [Keyboard & Touchpad](#keyboard--touchpad) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
 | [NVMe](#nvme) (internal SSD) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
 | [Screen](#screen) | ![all models working](https://img.shields.io/badge/all_models-working-green.svg) |
@@ -132,7 +132,7 @@ MacBooks with the T2 chip need this [patch](https://github.com/aunali1/linux-mbp
 
 ### Intel
 
-![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro16,1 unknown](https://img.shields.io/badge/MacBookPro16%2C1-unknown-grey.svg) ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg)
+![MacBookPro13,1 working](https://img.shields.io/badge/MacBookPro13%2C1-working-green.svg) ![MacBookPro13,2 working](https://img.shields.io/badge/MacBookPro13%2C2-working-green.svg) ![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,1 working](https://img.shields.io/badge/MacBookPro14%2C1-working-green.svg) ![MacBookPro14,2 working](https://img.shields.io/badge/MacBookPro14%2C2-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 partially working](https://img.shields.io/badge/MacBookPro16%2C1-partially_working-yellow.svg) ![MacBookPro15,2 working](https://img.shields.io/badge/MacBookPro15%2C2-working-green.svg) ![MacBookPro15,4 working](https://img.shields.io/badge/MacBookPro15%2C4-working-green.svg)  ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg) ![MacBookPro16,1 partially working](https://img.shields.io/badge/MacBookPro16%2C1-partially_working-yellow.svg) ![MacBookPro16,2 working](https://img.shields.io/badge/MacBookPro16%2C2-working-green.svg) ![MacBookPro16,3 working](https://img.shields.io/badge/MacBookPro16%2C3-working-green.svg)
 
 Graphical output using the Intel GPU is working out of the box on the
 MacBookPro 13,1 and 13,2, without dedicated AMD GPU. For the MacBookPro 13,3
@@ -141,7 +141,10 @@ isn't macOS, so you have to follow the instructions in the following link to
 enable the integrated Intel GPU, if you want to use it:
 https://github.com/Dunedan/mbp-2016-linux/issues/6#issuecomment-286168538
 
-Intel GPU has not yet been tested on the MacBookPro16,1.
+On T2 MacBookPros with dedicated AMD GPU (MacBookPro15,1 and MacBookPro16,1),
+enabling the iGPU prevents resuming from suspend (the GMUX is restored in the
+wrong state). More details specific to these models are on the t2linux wiki
+[here](https://wiki.t2linux.org/guides/hybrid-graphics/). VFIO GPU passthrough has worked as described [here](https://gist.github.com/Redecorating/956a672e6922e285de83fdd7d9982e5e).
 
 Connecting external displays via USB-C-to-DisplayPort cables works fine,
 including connections with daisy-chaining/MST. An actual tested and working
@@ -150,7 +153,7 @@ displays daisy-chained together with Full HD each.
 
 ### AMD
 
-![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg)
+![MacBookPro13,3 working](https://img.shields.io/badge/MacBookPro13%2C3-working-green.svg) ![MacBookPro14,3 working](https://img.shields.io/badge/MacBookPro14%2C3-working-green.svg) ![MacBookPro15,1 working](https://img.shields.io/badge/MacBookPro15%2C1-working-green.svg) ![MacBookPro16,1 working](https://img.shields.io/badge/MacBookPro16%2C1-working-green.svg)
 
 Works out of the box for the MacBookPro13,3 and MacBookPro14,3.
 
