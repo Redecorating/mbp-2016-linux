@@ -322,11 +322,11 @@ ensure that it complies with regulatory limits, which is very unlikely to
 happen as it wouldn't provide enough return on investment for them (see
 https://bugzilla.kernel.org/show_bug.cgi?id=193121 for details).
 
-T2 MacBooks need firmware taken form macOS. Ones that came with Mojave (15,\* 
+T2 MacBooks need firmware taken form macOS. Ones that came with Mojave (15,* 
 excluding 15,4) need the WiFi patches in aunali1's [linux-mbp-arch](https://github.com/aunali1/linux-mbp-arch) and
 firmware as described in the t2linux wiki's [wifi guide](https://wiki.t2linux.org/guides/wifi/).
 
-The 16,\* models came with Catalina, and thus there is no Mojave firmware.
+The 16,* models came with Catalina, and thus there is no Mojave firmware.
 They need to use Corellium's WiFi patches for M1 Macs, and BigSur firmware.
 The needed patches are [here](https://github.com/jamlam/mbp-16.1-linux-wifi) and the aforementioned WiFi guide
 mentions how to get firmware. This is also needed for the MacBookAir9,1.
